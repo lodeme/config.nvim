@@ -7,3 +7,4 @@ foo.*
 *.log
 data
 lua/plugins/example.lua
+compile_commands.json
