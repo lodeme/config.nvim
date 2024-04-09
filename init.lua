@@ -2,3 +2,4 @@
 require("config.lazy")
 vim.o.scrolloff = 20
 vim.o.wrap = true
+vim.o.shell = "fish"
