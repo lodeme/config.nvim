@@ -3,6 +3,7 @@ require("config.lazy")
 vim.o.scrolloff = 20
 vim.o.wrap = true
 vim.o.shell = "fish"
+vim.o.showtabline = 0
 
 -- set clipboard provider
 -- vim.o.clipboard = "unnamedplus"
