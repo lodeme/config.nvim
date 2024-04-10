@@ -6,7 +6,6 @@ vim.o.shell = "fish"
 vim.o.showtabline = 0
 
 -- set clipboard provider
--- vim.o.clipboard = "unnamedplus"
 local function copy(lines, _)
   require("osc52").copy(table.concat(lines, "\n"))
 end
