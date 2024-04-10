@@ -4,6 +4,8 @@ vim.o.scrolloff = 20
 vim.o.wrap = true
 vim.o.shell = "fish"
 vim.o.showtabline = 0
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- set clipboard provider
 local function copy(lines, _)
