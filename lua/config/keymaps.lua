@@ -5,3 +5,5 @@
 vim.keymap.set("n", "<leader>b", require("osc52").copy_operator, { expr = true })
 vim.keymap.set("n", "<leader>bc", "<leader>c_", { remap = true })
 vim.keymap.set("v", "<leader>b", require("osc52").copy_visual)
+vim.keymap.set("n", "<leader>qq", "<cmd>wqa<cr>", { desc = "Save and Quit All" })
+vim.keymap.set("n", "<leader>qf", "<cmd>qa!<cr>", { desc = "Force Quit All" })
