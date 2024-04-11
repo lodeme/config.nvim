@@ -7,3 +7,8 @@ vim.keymap.set("n", "<leader>bc", "<leader>c_", { remap = true })
 vim.keymap.set("v", "<leader>b", require("osc52").copy_visual)
 vim.keymap.set("n", "<leader>qq", "<cmd>wqa<cr>", { desc = "Save and Quit All" })
 vim.keymap.set("n", "<leader>qf", "<cmd>qa!<cr>", { desc = "Force Quit All" })
+
+-- terminal keymaps
+local opts = { buffer = 0 }
+vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
+vim.keymap.set("t", "<C-w>", [[<C-\><C-n><C-w>]], opts)
