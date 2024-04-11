@@ -3,7 +3,7 @@ return {
   event = "VimEnter",
   opts = function()
     local logo = [[
-    (ノಠ益ಠ)ノ彡┻━┻
+(╯°□°)╯︵ ┻━┻
     ]]
 
     logo = string.rep("\n", 8) .. logo .. "\n\n"
