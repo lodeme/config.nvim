@@ -60,6 +60,22 @@ return {
             end,
             icon = "LSP:",
           },
+          {
+            function()
+              local buf_clients = require("conform").list_formatters(0)
+              if next(buf_clients) == nil then
+                return "None"
+              else
+                -- Concatenate all client names if there's more than one
+                local client_names = {}
+                for _, client in ipairs(buf_clients) do
+                  table.insert(client_names, client.name)
+                end
+                return tostring(table.concat(client_names, ", "))
+              end
+            end,
+            icon = "FMT:",
+          },
         },
         -- lualine_x = {
         --   -- stylua: ignore
