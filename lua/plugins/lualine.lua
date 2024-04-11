@@ -76,7 +76,29 @@ return {
             end,
             icon = "FMT:",
           },
-        },
+          {
+            function()
+              local linters = require("lint").get_running()
+              if next(linters) == nil then
+                return "None"
+              else
+                return table.concat(linters, ", ")
+              end
+            end,
+            icon = "LNT:",
+          },
+          {
+            function()
+              local parser = vim.treesitter.get_parser()
+              if next(parser) == nil then
+                return "None"
+              else
+                return parser:lang()
+              end
+            end,
+            icon = "TST:",
+          },
+       },
         -- lualine_x = {
         --   -- stylua: ignore
         --   {
