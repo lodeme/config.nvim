@@ -1,4 +1,5 @@
 {
+  "42-header.nvim": { "branch": "main", "commit": "eecdd330e6e64ff4a35996697f028a600991d73d" },
   "LazyVim": { "branch": "main", "commit": "5646ee5191da244ff8ea57b9dba8a7e0d1dbdd42" },
   "LuaSnip": { "branch": "master", "commit": "be7be2ca7f55bb881a7ffc16b2efa5af034ab06b" },
   "auto-dark-mode.nvim": { "branch": "master", "commit": "e328dc463d238cb7d690fb4daf068eba732a5a14" },
@@ -35,6 +36,7 @@
   "neoconf.nvim": { "branch": "main", "commit": "9d61ff423ae5f179ace1823300c4873f38a7c418" },
   "neodev.nvim": { "branch": "main", "commit": "ce9a2e8eaba5649b553529c5498acb43a6c317cd" },
   "noice.nvim": { "branch": "main", "commit": "0cbe3f88d038320bdbda3c4c5c95f43a13c3aa12" },
+  "norminette42.nvim": { "branch": "main", "commit": "dccf0bf84555a8960731cbb49603cf4e4107061f" },
   "nui.nvim": { "branch": "main", "commit": "cbd2668414331c10039278f558630ed19b93e69b" },
   "nvim": { "branch": "main", "commit": "02bdd749931a5d739063562e57531c118e081882" },
   "nvim-cmp": { "branch": "main", "commit": "ce16de5665c766f39c271705b17fff06f7bcb84f" },
