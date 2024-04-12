@@ -49,7 +49,7 @@ return {
           type = "codelldb",
           request = "launch",
           name = "philo",
-          program = "~/code/philosophers/philo/philo",
+          program = "${workspaceFolder}/philo/philo",
           cwd = "${workspaceFolder}",
           args = { "4", "3000", "100", "100", "3" },
         },
