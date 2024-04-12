@@ -49,9 +49,9 @@ return {
           type = "codelldb",
           request = "launch",
           name = "philo",
-          program = "/home/ft-code-external/philosophers/philo/philo",
+          program = "~/code/philosophers/philo/philo",
           cwd = "${workspaceFolder}",
-          args = {4, 3000, 100, 100, 3},
+          args = { "4", "3000", "100", "100", "3" },
         },
       }
     end
